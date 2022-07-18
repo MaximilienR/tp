@@ -8,10 +8,12 @@ function Palindrome(string) {
      for (let i = 0; i < len / 2; i++) {
 
          if (string[i] !== string[len - 1 - i]) {
-            return "n'est pas un paladrom";
+            return "ceci n'est pas un paladrom";
+        }else {
+            return 'ceci un  palindrome';
         }
     }
-    return 'ceci un paladrumpalindrome';
+    
 }
 
  const string = prompt('veuillez saisir un mot  ');

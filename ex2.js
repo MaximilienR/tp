@@ -8,6 +8,6 @@ let chiffre2 ;
 chiffre2 =prompt ("veuillez saisir un nombre");
 console.log(chiffre2)
 
- let cal = chiffre1 += chiffre2;
- console.log('le resultat sera de ' - - ' ' +cal)
+ let cal = chiffre1 - - chiffre2;
+ console.log('le resultat sera de ' + ' ' +cal)
  
