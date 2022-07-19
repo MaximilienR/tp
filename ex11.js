@@ -2,7 +2,7 @@ var prompt = require ('prompt-sync')();
 
 
 
-const age2 = prompt("veuillir votre age   ");
+const age2 = prompt("veuillez entrer votre age   ");
 if (age2 < 3 ){
 console.log('vous êtes trop petit');
 } 
