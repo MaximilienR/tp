@@ -26,6 +26,6 @@ if(taillCM > 146  && taillCM <170 ){
     console.log("vous faites une taille 1")
 }
 
-if(taillCM > 178    ){
+if(poindKG > 65 && w    ){
     console.log("vous faites une taille 1")
 }
