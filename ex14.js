@@ -1,3 +1,4 @@
+//mes variable 
 var prompt = require ('prompt-sync')();
 const AB = prompt("veuillir une longeur ");
 const BC=prompt("veuillir une longeur ")
