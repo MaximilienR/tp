@@ -14,5 +14,5 @@ function moyenne()
     return resultat;
  
 }
-console.log("la moyen est de "+ moyenne() + "  et la meuilleur note est de ");
-console.log(Math.max(...tableau))
+console.log("la moyen est de "+ moyenne() + ",la meuilleur note est de "+ Math.max(...tableau)+" et la plus petite note est de "+Math.min(...tableau));
+ 

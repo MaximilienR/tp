@@ -1,7 +1,7 @@
 var prompt = require ('prompt-sync')();
  var date_Sup="10/10/1950"
  var date_Inf="10/10/1950"
-
+var date
 
 function nb_Annees(date_Inf,date_Sup) {
     return dateUser-dateReduc
