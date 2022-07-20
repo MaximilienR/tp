@@ -1,11 +1,10 @@
 var prompt = require ('prompt-sync')();
 
-
-var cible = Math.floor(Math.random() * 1000) + 1;
+var cible = Math.floor(Math.random(1-100) ) ;
 var nombre, compteur;
-for (compteur=1; compteur<=10; compteur+=1) {
-    chiffre =prompt ("veuillez saisir un nombre");
-    if (nombre === cible) {alert("Bravo");
+for (compteur=1; compteur<=3; compteur+=1) {
+    var chiffre =prompt("veuillez saisir un nombre");
+    if (nombre === cible) {console.log("c'est gagné");
         break;
     }
     if (nombre > cible) {
@@ -15,4 +14,6 @@ for (compteur=1; compteur<=10; compteur+=1) {
         alert("trop petit");
     }
 } 
-alert("c'est fini. le chiffre cherche est : " + cible);
+console.log(" le reponse était " + cible);
+
+ 
