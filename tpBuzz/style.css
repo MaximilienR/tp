@@ -1,14 +1,25 @@
-.foo{
+.btnAdd{
     border-radius: 100%;
  background-color: rgb(46, 97, 207);
 height: 10rem;
 width: 10rem;
+margin-top: 25%;
+margin-left: -10%;
+}
+.btnDel{
+  border-radius: 100%;
+background-color: rgb(92, 46, 207);
+height: 10rem;
+width: 10rem;
+margin-top: 25%;
+margin-right: -8%;
 }
 
 .cercle {
     background-color: rgb(187, 28, 28);
     /*padding:10px;*/
     border-radius: 50%;
+    padding:20%;
     height: 25rem;
     width: 25rem;
   }
