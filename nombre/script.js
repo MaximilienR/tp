@@ -10,13 +10,19 @@ var compteur=0;
 var solution ;
 var chance=1;
 var choixUser = document.getElementById("reponse").value;
-var nombre =function RandomInt(max) {
+var nombre =function RandomInt() {
     return Math.floor(Math.random() * 50);
-    console.log(max)
+  
 
    }
-  
+  //entrer nombre
     function play() {
+      
+    }
+    //compteur
+    function test(){
+        Number
+        document.getElementById("chance").innerHTML += chance +=+ 1;
         Number(choixUser)
         if (choixUser<nombre) {
             alert("choisisez un nombre plus grand");
@@ -26,12 +32,7 @@ var nombre =function RandomInt(max) {
             alert("vous avez gagner");
         }else if (choixUser==""){
             alert("veuillez saisir un nombre");
-        }
-    }
-    //compteur
-    function test(){
-        Number
-        document.getElementById("chance").innerHTML +=chance.value+ 1;}
+        }}
 
     //recharger la page 
 function reload(){
