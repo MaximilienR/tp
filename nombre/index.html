@@ -7,17 +7,18 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body>   
     
     <div class="rectangle">
         <h1 >le nombre mystère</h1>
         <p>J'ai généré un nombre entre 1 et 50 inclus<br/>
         Essayer de le devinez en proposant ci-dessous
         </p> 
-        <p>nombre de compte
-            <input type="text"/> 
-            <button type="submit" onclick="RandomInt">valider</button><br/>
-            <button type="" id="btn2">Rejouer</button>
+        <p><span>nombre de coup : </span><span id="chance">0</span>
+            <input type="text"id="reponse"/> 
+            <button onclick="test()">valider</button><br/>
+            <button type="" id="btn2" onclick="reload()">Rejouer</button>
+ 
     </div>
     <script src="script.js"></script>
 </body>

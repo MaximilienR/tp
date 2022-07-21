@@ -2,6 +2,9 @@
 	width:600px;
 	height:200px;
 	background:rgb(250, 81, 2);
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 #btn2{
     width: 80%;
