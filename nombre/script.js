@@ -29,7 +29,7 @@ var nombre =function RandomInt() {
         } else if (choixUser>nombre){
             alert("choissez un nombre plus petit");
         } else if (choixUser == nombre){
-            alert("vous avez gagner");
+            alert("vous avez gagner le nombre nombre était bien "+Number);
         }else if (choixUser==""){
             alert("veuillez saisir un nombre");
         }}
