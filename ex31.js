@@ -1,4 +1,4 @@
-let tableau = [4,2,4,2]
+let tableau = [1,2,4,2]
  
 var i= tableau 
 for (
@@ -10,8 +10,7 @@ for (
         console.log("Il est rangé ")
          
         
-    }else if (tableau[i]>tableau[i+1])
-        {console.log("il est pas rangé")}
+    }else {console.log("il est pas rangé")}
     
 }
 

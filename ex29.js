@@ -4,7 +4,7 @@ console.log(tableau)
 
 function moyenne()
 {  
-     var n = tableau.length;
+    var n = tableau.length;
     var somme=0;
     for(i=0; i<n; i++)
     {
