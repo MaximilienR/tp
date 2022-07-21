@@ -1,4 +1,4 @@
-alert("yoyuhou")
+alert("c'est repartie")
 
 /*var essais = 0;
 
@@ -8,6 +8,7 @@ function incrementClick() {
  
 var compteur=0;
 var solution ;
+var chance=1;
 var choixUser = document.getElementById("reponse").value;
 var nombre =function RandomInt(max) {
     return Math.floor(Math.random() * 50);
@@ -30,7 +31,7 @@ var nombre =function RandomInt(max) {
     //compteur
     function test(){
         Number
-        document.getElementById("chance").innerHTML += 1;}
+        document.getElementById("chance").innerHTML +=chance.value+ 1;}
 
     //recharger la page 
 function reload(){
