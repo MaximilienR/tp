@@ -13,25 +13,29 @@ console.log(random);
 var prompt ;
 parseInt(prompt)
 //je demande à l'utilisateur de rentrer un nombre 
-var choice=prompt("veuillir une chiffre entre 1 et 1000 ");
-return (grand)
-parseInt(choice);
-console.log(choice)
+var choice=Number (prompt("veuillir une chiffre entre 1 et 1000 "));
+ console.log(choice)
 
-/* test 
-if (choice == random){
-    console.log("c'est gagné")
-} 
- 
-*/
-function grand(params) {
-    while (choice<random){
-        var prompt=prompt('veuillez choisir un chiffre plus grand')
-    }
-    
+ /*test pour comparer nombre
+
+ if(choice!=random) {
+    (console.log('ceci est différent '))
+ }else(console.log('les chiffres sont idendique'))
+ */
+
+ //tant que le nombre est plus petit je demande un nombre plus grand
+if(choice===random){
+    console.log("bravo")
 }
 
 
+ while (choice!=random) {
+    if(choice<random){
+        prompt('veuillez choisir un nombre plus grand')
+        break
+    }else if (choice>random){
+        prompt('veuillez choisir un nombre plus petit')
+        break
 
-
- 
+    }
+ }
