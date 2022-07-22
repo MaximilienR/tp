@@ -28,9 +28,9 @@ var nombre =function RandomInt() {
             alert("choisisez un nombre plus grand");
         } else if (choixUser>nombre){
             alert("choissez un nombre plus petit");
-        } else if (choixUser == nombre){
+        } else if (choixUser === nombre){
             alert("vous avez gagner le nombre nombre était bien "+Number);
-        }else if (choixUser==""){
+        }else if (choixUser===""){
             alert("veuillez saisir un nombre");
         }}
 
