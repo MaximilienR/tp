@@ -2,36 +2,46 @@
 //mes variables 
 let buttons =Array.from(document.getElementsByClassName('button')) ;
 let number2
-
-console.log(buttons)
+var  number1
+const parsed = parseInt(number1,number2);
+const num1 =parseInt(document.getElementById("one"))
 
 function play(val) {
     var number1 = val;
     document.getElementById('ecran').value =number1  
 }
 
-function total(val){
- var total =val.value+val.value
- document.getElementById('ecran').value =total
- alert(n)
-}
+ 
 
 function reset(){
   location.reload()
 }
 
- //+
-if (operator == '+') {
-  result = number1 + number2;
+// mes operation 
+function operator (number1,number2) 
+{if (operator == '+') {
+  result =number1 + number2;
+  alert(result)
 }
 //-
 else if (operator == '-') {
   result = number1 - number2;
+  alert(result)
 }
 //*
 else if (operator == '*') {
   result = number1 * number2;
+  alert(result)
 }// %
 else {
   result = number1 / number2;
+  alert(result)
 }
+
+
+/*var foo=Number (document.getElementById(3));
+ alert(foo)
+console.log(buttons)*/
+  
+}
+ //+
