@@ -16,7 +16,7 @@ function play(val) {
 function reset(){
   location.reload()
 }
-
+/*
 // mes operation 
 function operator (number1,number2) 
 {if (operator == '+') {
@@ -43,3 +43,4 @@ var foo=Number (document.getElementById(3));
    
 }
  //+
+*/

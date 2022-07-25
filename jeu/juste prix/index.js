@@ -31,8 +31,8 @@ if(choice===random){
 //tant que le nombre est plus grand que la reponse je demande de viser plus petit
  while (choice!=random) {
     if(choice<random){
-        prompt('veuillez choisir un nombre plus grand')
-        var choice=Number (prompt("veuillir une chiffre entre 1 et 1000 "));
+        console.log('veuillez choisir un nombre plus grand')
+        choice=Number (prompt("veuillir une chiffre entre 1 et 1000 "));
 
          break
     }else if (choice>random){
