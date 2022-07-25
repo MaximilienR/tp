@@ -39,9 +39,7 @@ else {
 }
 
 
-/*var foo=Number (document.getElementById(3));
- alert(foo)
-console.log(buttons)*/
-  
+var foo=Number (document.getElementById(3));
+   
 }
  //+
