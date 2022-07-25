@@ -23,19 +23,22 @@ var choice=Number (prompt("veuillir une chiffre entre 1 et 1000 "));
  }else(console.log('les chiffres sont idendique'))
  */
 
- //tant que le nombre est plus petit je demande un nombre plus grand
+ //si nombre juste afficher bravo
 if(choice===random){
     console.log("bravo")
 }
 
-
+//tant que le nombre est plus grand que la reponse je demande de viser plus petit
  while (choice!=random) {
     if(choice<random){
         prompt('veuillez choisir un nombre plus grand')
-        break
+        var choice=Number (prompt("veuillir une chiffre entre 1 et 1000 "));
+
+         break
     }else if (choice>random){
         prompt('veuillez choisir un nombre plus petit')
-        break
+ 
+         
 
     }
  }
