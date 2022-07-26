@@ -3,7 +3,7 @@ class Cars{
     constructor(marque,model,vitesse){
         this.marque=marque;
         this.model=model;
-        this.vitesse=0;
+        this.vitesse=vitesse;
          
     }     
     get getVitesse(){
@@ -15,7 +15,7 @@ class Cars{
     }
 
     /*accelerer(){
-        console.log()
+        console.log(vitesse + 10)
     }
     //console.log(Cars)
 
