@@ -7,4 +7,12 @@ body{background-color: gainsboro;}
 }
 
 h1{text-align: center;}
-
+.next{margin-left: 50%;
+    margin-bottom: 5%;
+background-color: aqua;}
+img {width: 25%;
+    height: 25%;
+    border-radius: 80%;
+    margin-left: 40%;
+    }
+.pres{margin-left: 40%;}

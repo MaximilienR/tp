@@ -1,35 +1,71 @@
-class User{
-    constructor(nom,job,description){
+var model = new Object();
+/*class User{
+    constructor(id,picture,nom,job,description){
+        this.id=id;
+        this.picture=picture
         this.name= nom;
         this.job=job;
         this.description=description;
     }
-}
+    
+};
+console.log(User)
 
-alert("persoon")
-var personne = {
-    imag :ee,
-    name: ['Jean', 'Martin'],
-    job: 32,
-    description : 'orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+var personne0 ={
+    
+    id: 1,
+    name: "susan smith",
+    job: "web developer",
+    img:
+      "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    text:
+      "Développeur web diplômé d’une LP métiers de l’informatique ayant travaillé plus d’un an en tant qu’alternant puis employé d’une grande entreprise de sous-traitance de programmation web. Je souhaite évoluer dans votre entreprise et travailler sur vos projets dans le domaine de la course automobile car c’est ce qui me passionne.",
+       
+    },
+    
+  alert(personne0.nom);
+*/
+ var personne = {
+    id:2,
+    imag :"https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    nom: ['anna johnson'],
+    job: "web designer",
+    description : 'Développeur full stack certifié Scrum, avec plus de 2 ans d’expérience. Mordu d’informatique, j’ai appris à coder dès mon plus jeune âge dans divers langages informatiques (Javascript, PHP, AngularJS…) et ai créé des projets personnels, dont un site référençant les vidéos les plus vues sur la plateforme Twitch (+ 5000 visites/mois).'
 }
-var personne2 = {
-    imag :ee,
-    name: ['Jean', 'Martin'],
-    job: 32,
-    description : 'orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-}
+alert(personne.nom)/*
+ var personne2 = {
+    id:3,
+    imag :"https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    nom: ['Jean', 'Martin'],
+    job: "Dev",
+    description : 'Développeur full stack certifié Scrum, avec plus de 2 ans d’expérience. Mordu d’informatique, j’ai appris à coder dès mon plus jeune âge dans divers langages informatiques (Javascript, PHP, AngularJS…) et ai créé des projets personnels, dont un site référençant les vidéos les plus vues sur la plateforme Twitch (+ 5000 visites/mois).'
+};
+console.log(personne2)
 
 var personne3 = {
-    imag :ee,
-    name: ['Jean', 'Martin'],
-    job: 32,
-    description : 'orem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-}
+    id:4,
+    imag :"https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    nom: ['Jean', 'Martin'],
+    job: "Dev",
+    description : ' "Edison bulb put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. "'
+};
 
-user = [personne,personne2,personne3]
+let user = [personne0,personne,personne2,personne3]
+let name=[personne.nom]
+console.name=name;
+function pres(params) {
+    for (let index = personne.nom; index < user.length; index--) {
+        const element = user[index];
+        
+    }
+}; var toto =
+function next(this) {
+    for (let index = 0; index < user.length; index++) {
+        const element = user[index];
+        
+    }
+};
 
-for (let index = 0; index < array.length; index++) {
-    const element = array[index];
-    
-}
+
+
+export default;
