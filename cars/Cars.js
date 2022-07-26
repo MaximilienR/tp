@@ -5,7 +5,7 @@ class Cars{
         this.marque=marque;
         this.model=model;
         this.vitesse=vitesse;
-        this.compteur=0;
+     // this.compteur=0;
           
     }     
     /*test1

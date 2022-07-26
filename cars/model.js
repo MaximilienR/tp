@@ -10,7 +10,7 @@ console.log('la voiture 2 roule a ' + Voiture2.vitesse)*/
 for (var nb = 0; nb < 4; nb++) {
  Voiture1.accelerer();
 }
-//même principe que au deçu mais sur la voiture n2 ATTENTION celle ci utilise également la fonction de tourner 
+//même principe que au dessu mais sur la voiture n2 ATTENTION celle ci utilise également la fonction de tourner 
 for (let ac = 0; ac < 3; ac++) {
     Voiture2.accelerer();
     for (let tourne = 0; tourne <3; tourne++) {
