@@ -1,0 +1,11 @@
+.container{background-color: black;
+            color: aliceblue;
+        margin-left:30%;
+        margin-right:  30%;}
+        hr {
+            height: 1px;
+            color: #123455;
+            background-color: #ffffff;
+            border: none;
+        }
+#submit{margin-left: 5000px;}
