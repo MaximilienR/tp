@@ -13,7 +13,7 @@ for (var nb = 0; nb < 4; nb++) {
 
 for (let ac = 0; ac < 2; ac++) {
     Voiture2.accelerer();
-    for (let tourne = 0; tourne <2; tourne++) {
+    for (let tourne = 0; tourne <3; tourne++) {
         Voiture2.tourne();        
     }
 }
