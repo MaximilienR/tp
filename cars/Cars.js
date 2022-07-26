@@ -1,3 +1,4 @@
+//je créer mon construteur à partir du quel les voitures pourront être conçu
 class Cars{ 
 
     constructor(marque,model,vitesse,compteur){
@@ -7,7 +8,7 @@ class Cars{
         this.compteur=0;
           
     }     
-    /*
+    /*test1
     get getVitesse(){
         return this.vitesse;
     }
@@ -17,7 +18,7 @@ class Cars{
     
    
     
-    
+    /*je créer mes fonctions qui permet d'augementer ou diminuer la vitesse selon le cas*/ 
     tourne(){
         (this.vitesse -=5)
     }
