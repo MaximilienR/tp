@@ -38,3 +38,4 @@ var nombre =function RandomInt() {
 function reload(){
 window.location.reload()
 }
+
