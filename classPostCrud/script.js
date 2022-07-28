@@ -42,3 +42,5 @@ tabCom = [com1];
 delete tabCom[0];
 console.log(tabCom);
 */
+
+if

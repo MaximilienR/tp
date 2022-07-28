@@ -16,7 +16,7 @@ var product = new Article();
 
 function creat() {
      var art1= document.getElementById('prod').value;
- document.getElementById("ecran").innerHTML += art1;
+    document.getElementById("ecran").innerHTML += art1;
 
 };
 
@@ -47,3 +47,5 @@ add.addEventListener('click', function(){
         paragraphe.innerHTML=
         ecran.appendChild(paragraphe)
 })
+
+ var result = nb : (32%3=0 &&%5=0:"fizzbuz") 
