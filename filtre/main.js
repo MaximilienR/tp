@@ -1,3 +1,18 @@
+// je créer le model des produit
+class Product{ 
+
+  constructor(id,title,company,image){
+      this.id=id;
+      this.title=title;
+      this.company=company;
+      this.image=image;
+         
+  }     
+
+}
+
+
+
 // mes produit
 
 const products = [
@@ -110,7 +125,7 @@ products.forEach(product => {
 
     affichage.innerHTML+=`
     <div class="card" style="width: 18rem;">
-    <img src="..." class="card-img-top" alt="...">
+    <img src="https://dl.airtable.com/.attachments/14ac9e946e1a02eb9ce7d632c83f742f/4fd98e64/product-1.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -123,7 +138,10 @@ products.forEach(product => {
     console.log(product);
 
 })
-
+//recherche de produit
+if (search!=product) {
+  console.log("désole nous n'avons pas reussis à trouver votre produit")
+}
 
 // const searchInput  = document.getElementById("search")
 // const article = document.querySelectorAll('container title')
