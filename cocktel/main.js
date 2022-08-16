@@ -1,30 +1,42 @@
-//stape 1 affiche les info dans la console 
+//stape 1 relier le js
+alert('js relier')
+
+//stape 2 affiche les info dans la console 
 var menu
 var recherche=document.getElementById("search")
 const ecran = document.getElementById("container");
 
-alert('ok')
+
 fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=")
 .then(response=>response.json())
 .then(data=>{
         menu=data;
         console.log(menu);
+        retour();
         
     
     })
-//stape 2 affiche écran
+//stape 2 prendre en compte une  recherhce dans la console 
 var commande = document.getElementById("search").value;
  
 
   function affiche() {
-     console.log(recherche.value)
+     console.log("vous avez recherche le produit"+"  " + recherche.value)
  }
  recherche.addEventListener("keyup",affiche)
 
- 
-
- //test 
 
 
  
-//stape 3 adapter selon la recherche  
+//stape 3 afficher les produits  
+
+ 
+    
+function retour() {ecran.innerHTML=`
+ <div class="card-body">
+  <h5 class="card-title">${"ttt"}</h5>
+ </div>
+`
+    
+}
+ 
