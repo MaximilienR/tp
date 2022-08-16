@@ -34,7 +34,7 @@ var commande = document.getElementById("search").value;
     
 function retour() {ecran.innerHTML=`
  <div class="card-body">
-  <h5 class="card-title">${"ttt"}</h5>
+  <h5 class="card-title">${menu.personale.strIngredient3}</h5>
  </div>
 `
     
